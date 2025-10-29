@@ -1,0 +1,73 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>Joe's Pizzeria Sign-Up</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Joe's Pizzeria Sign-Up Form</h1>
+
+    <div>
+        <p>Join <strong>Joe's Pizzeria</strong> loyalty program! Get updates on our wood-fired pizza specials, exclusive discounts, and event invitations.</p>
+    </div>
+
+    <h2>Perks of Joining</h2>
+    <ul>
+        <li>Free dessert on your birthday</li>
+        <li>Members-only pizza tasting events</li>
+        <li>Early access to seasonal menu items</li>
+        <li>Free T-Shirt</li>
+    </ul>
+
+    <h2>Sign-Up Form</h2>
+    <form id="signupForm" action="https://script.google.com/macros/s/AKfycbz6cewkwC6P68-qotOokhBb_v1Zxr3aozRItX-rFramd4p_7R3XzwHLj7o1mN-6Okez/exec" method="post" target="_self">
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required>
+        </div>
+
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input id="birthday" name="birthday" type="date">
+        </div>
+
+        <div>
+            <p>Preferred Dessert Type:</p>
+            <label><input type="radio" name="desserttype" value="Cupcake" required> Cupcake</label>
+            <label><input type="radio" name="desserttype" value="Cookie" required> Cookie</label>
+        </div>
+
+        <div>
+            <label for="tshirt">T-Shirt Size:</label>
+            <select id="tshirt" name="tshirt">
+                <option value="">Choose one...</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <h2>What Happens Next</h2>
+    <ol>
+        <li>We’ll add your information to our member list
+            <ul>
+                <li>You’ll get a confirmation email shortly.</li>
+            </ul>
+        </li>
+        <li>Watch your inbox for special discounts</li>
+        <li>Stop by Joe’s and enjoy your rewards!</li>
+    </ol>
+
+    <div>
+        <img src="https://fornopiombo.com/cdn/shop/articles/The-Best-Pizza-Dough-Recipe-for-A-Wood-Fired-Pizza-Oven.jpg?v=1650287947" alt="Wood fired pizza" width="400">
+    </div>
+
+    <div class="spacer"></div>
+
+</body>
+</html>
